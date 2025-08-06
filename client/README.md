@@ -1,19 +1,21 @@
-# YouRelate Frontend
+# YouRelate - Next.js Frontend
 
-A modern React frontend for the YouRelate YouTube Q&A system, built with TypeScript and Tailwind CSS.
+A modern Next.js frontend for the YouRelate YouTube Q&A system, built with TypeScript and Tailwind CSS.
 
 ## Features
 
 - 🎥 YouTube video Q&A interface
 - 🤖 AI-powered answers using Google Gemini
 - 🎨 Modern, responsive UI with Tailwind CSS
-- ⚡ Fast and intuitive user experience
+- ⚡ Fast and intuitive user experience with Next.js
 - 📱 Mobile-friendly design
+- 🚀 Server-side rendering capabilities
 
 ## Tech Stack
 
+- **Next.js 15** with App Router
 - **React 18** with TypeScript
-- **Tailwind CSS** for styling
+- **Tailwind CSS** for styling (built-in support)
 - **Lucide React** for icons
 - **Axios** for API calls
 
@@ -32,7 +34,7 @@ npm install
 
 2. Start the development server:
 ```bash
-npm start
+npm run dev
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -52,18 +54,19 @@ The frontend communicates with the following backend endpoints:
 
 ## Development
 
-- `npm start` - Start development server
+- `npm run dev` - Start development server
 - `npm run build` - Build for production
-- `npm test` - Run tests
-- `npm run eject` - Eject from Create React App
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
 ## Project Structure
 
 ```
 src/
-├── App.tsx          # Main application component
-├── index.tsx        # Application entry point
-├── index.css        # Global styles with Tailwind
+├── app/
+│   ├── page.tsx          # Main application component
+│   ├── layout.tsx        # Root layout
+│   └── globals.css       # Global styles with Tailwind
 └── ...
 ```
 
@@ -75,3 +78,12 @@ This frontend is designed to work with the FastAPI backend that:
 - Uses Google Gemini AI for answer generation
 
 Make sure the backend is running before using the frontend.
+
+## Advantages of Next.js
+
+- ✅ **Built-in Tailwind CSS support** - No complex PostCSS setup
+- ✅ **Server-side rendering** - Better SEO and performance
+- ✅ **App Router** - Modern React routing
+- ✅ **TypeScript support** - Better development experience
+- ✅ **Fast refresh** - Instant updates during development
+- ✅ **Production optimized** - Built-in optimizations
