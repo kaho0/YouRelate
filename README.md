@@ -78,12 +78,3 @@ This frontend is designed to work with the FastAPI backend that:
 - Uses Google Gemini AI for answer generation
 
 Make sure the backend is running before using the frontend.
-
-## Advantages of Next.js
-
-- ✅ **Built-in Tailwind CSS support** - No complex PostCSS setup
-- ✅ **Server-side rendering** - Better SEO and performance
-- ✅ **App Router** - Modern React routing
-- ✅ **TypeScript support** - Better development experience
-- ✅ **Fast refresh** - Instant updates during development
-- ✅ **Production optimized** - Built-in optimizations
